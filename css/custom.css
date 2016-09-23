@@ -9,6 +9,8 @@ body {
 	font-weight: 300;	
 }
 
+/*NAVBAR
+___________________________________________________*/
 .logotype {
 	width: 45px;
 }
@@ -43,7 +45,7 @@ body {
 
 .nav-buttons {
 	text-align: center;
-	padding-top: 10px;
+	padding-top: 15px;
 	padding-bottom: 2px;
 }
 
@@ -59,9 +61,48 @@ body {
 	padding-top: 2px;
 }
 
+/*BLOCKS
+_______________________________________________*/
 .block-1 {
 	background-color: #f2f2f2;
 }
+
+.block-2 {
+/*	padding-top: 30px;*/
+}
+
+.block-3 {
+	background-color: #e0e0e0; 
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.block-4 {
+	background-color: #e0e0e0;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.block-5 {
+	background-color: #42ae63;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: white;
+}
+
+.block-6 {
+	background-color: #484d52;
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.block-header {
+	text-align: center;
+}
+
+/*Inside BLOCKS
+_________________________________________________*/
 
 .describe {
 	padding: 10% 10% 5% 10%;
@@ -71,11 +112,44 @@ body {
 	text-align: center;
 }
 
-.block-2 {
-	padding-top: 30px;
-}
-
 .button-row {
 	text-align: center;
 	padding-top: 30px;
 }
+
+.transfer_logo {
+	height: 400px;
+}
+
+.describe-block-2 {
+	padding-top: 25px;
+	/*padding-right: 3%;*/
+}
+
+.describe-block-2 h5 {
+	margin-bottom: 0.5rem;
+	font-size: 2rem;
+}
+
+.quest {
+	padding-bottom: 1rem;
+}
+
+.item-center {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.nav-buttons a {
+	text-decoration: none;
+	color: #222;
+}
+
+.foot {
+	text-align: center;
+}
+
+/*Archive
+green: #42ae63
+*/
